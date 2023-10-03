@@ -190,6 +190,7 @@ body{
 }
 #newwala{
     display:flex;
+    margin-bottom:10%;
 }
 .courseContentWeekText{
     color: #FFF;
@@ -201,6 +202,11 @@ body{
     margin-bottom:3%;
     margin-right:86%;
 }
-.courseContentWeekText{
+#nichewala{
     display:none;
+}
+.courseContentWeekText{
+    width:80%;
+    text-align:left;
+    margin-bottom:5%;
 }
