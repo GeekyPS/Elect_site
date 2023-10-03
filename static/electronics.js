@@ -11,7 +11,7 @@ let weekicon1=document.getElementById('icon1');
 let weekicon2=document.getElementById('icon2');
 let weekicon3=document.getElementById('icon3');
 let weekicon4=document.getElementById('icon4');
-let weekContent=document.getElementsByClassName('courseContentWeekText');
+let weekContent=document.getElementById('nichewala');
 console.log(weekContent);
 function FunctionHide(){
     if (weekContent.style.display!='none'){
@@ -87,3 +87,4 @@ function togglehide4(){
         weekicon4.style.display='none';
     }
 }
+
