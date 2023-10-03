@@ -14,7 +14,7 @@ let weekicon4=document.getElementById('icon4');
 let weekContent=document.getElementById('nichewala');
 console.log(weekContent);
 function FunctionHide(){
-    if (weekContent.style.display!='none'){
+    if (weekContent.style.display!="" && weekContent.style.display!='none'){
         weekContent.style.display='none';
     }
     else{
@@ -22,7 +22,7 @@ function FunctionHide(){
     }
 }
 function togglehide1(){
-    if (week1table.style.display!='none'){
+    if (week1table.style.display!="" && week1table.style.display!='none'){
         week2table.style.display='none'
         week1table.style.display='none';
         week3table.style.display='none';
@@ -39,7 +39,7 @@ function togglehide1(){
     }
 }
 function togglehide2(){
-    if (week2table.style.display!='none'){
+    if (week2table.style.display!="" && week2table.style.display!='none'){
         week2table.style.display='none';
         week1table.style.display='none';
         week3table.style.display='none';
@@ -55,7 +55,7 @@ function togglehide2(){
     }
 }
 function togglehide3(){
-    if (week3table.style.display!='none'){
+    if (week3table.style.display!="" && week3table.style.display!='none'){
         week3table.style.display='none';
         week1table.style.display='none';
         week2table.style.display='none';
@@ -71,7 +71,7 @@ function togglehide3(){
     }
 }
 function togglehide4(){
-    if (week4table.style.display!='none'){
+    if (week4table.style.display!="" && week4table.style.display!='none'){
         week2table.style.display='none'
         week1table.style.display='none';
         week3table.style.display='none';
@@ -87,4 +87,3 @@ function togglehide4(){
         weekicon4.style.display='none';
     }
 }
-
